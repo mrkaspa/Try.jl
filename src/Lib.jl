@@ -10,7 +10,9 @@ module Iter
 
 using Pipe
 
-mult(nums) = @pipe nums |> map(x -> x * x, _)
+mult(nums) = @pipe nums |>
+    map(x -> x + 1, _) |>
+    map(x -> x * x, _)
 
 export mult
 
