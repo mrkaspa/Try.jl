@@ -1,0 +1,7 @@
+name = "Try.jl"
+uuid = "fd40e086-2ed7-11e9-171f-29783c5c69b6"
+authors = ["Michel Perez <michel.ingesoft@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+Pipe = "b98c9c47-44ae-5843-9183-064241ee97a0"
